@@ -1,8 +1,18 @@
+import React from "react";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import ContactImg from "../Assets/13.jpg"
 function Contact() {
     return (
       <>
-          <h1>Contact</h1>
-      </>
+        <Navbar></Navbar>
+        <Hero
+          cName="hero-mid"
+          heroImg={ContactImg}
+          title="Contact"
+          btnClass="hide"
+        />     
+       </>
     );
   }
   

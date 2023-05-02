@@ -1,4 +1,5 @@
 .NavbarItems {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,6 +17,7 @@
 
 .nav-logo {
   color: #222;
+  font-weight: 800;
   font-size: 2rem;
   cursor: pointer;
 }
@@ -26,6 +28,7 @@
   grid-gap: 10px;
   list-style: none;
   align-items: center;
+  padding-top: 10px;
 }
 
 .nav-links {
