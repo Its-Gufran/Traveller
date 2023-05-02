@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import ServiceImg from "../Assets/12.jpg"
+import ServiceImg from "../Assets/night.jpg"
 
 function Service() {
     return (
