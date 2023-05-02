@@ -2,7 +2,7 @@ import React from "react";
 import Hum1 from "../Assets/hum1.jpg";
 import Hum2 from "../Assets/hum2.jpg";
 import saf1 from "../Assets/saf1.jpg";
-import saf2 from "../Assets/saf2.jpg";  
+import saf2 from "../Assets/saf2.jpg";
 import Hum3 from "../Assets/hum3.jpg";
 import Hum4 from "../Assets/hum4.jpg";
 import "./Destination.css";

@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4.5rem;
+    margin-top: 5rem;
 }
 
 .first-des-reverse{
@@ -20,7 +20,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4.5rem;
+    margin-top: 10rem;
 }
 
 .des-text{
@@ -67,7 +67,7 @@
         flex-direction: column-reverse;
         margin-top: 2.5rem;
     }
-    .first-des-revverse{
+    .first-des-reverse{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 2.5rem;

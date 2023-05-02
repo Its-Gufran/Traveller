@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import ServiceImg from "../Assets/night.jpg"
-
+import Footer from "../components/Footer";
+import Trip from "../components/Trip"
 function Service() {
     return (
       <>
@@ -13,6 +14,8 @@ function Service() {
           title="Service"
           btnClass="hide"
         />
+        <Trip></Trip>
+        <Footer></Footer>
       </>
     );
   }
