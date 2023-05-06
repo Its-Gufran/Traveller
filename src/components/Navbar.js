@@ -1,14 +1,30 @@
-import React from "react";
+import React, { useState } from 'react';
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 import { Component } from "react";
+import SignUp from "./SignUp";
 import "./Navbar.css";
 
 class Navbar extends Component {
+  
+
   state = { clicked: false };
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      showSignUp: false
+    };
+    this.handleSignUpClick = this.handleSignUpClick.bind(this);
+  }
+
+  handleSignUpClick() {
+    this.setState({ showSignUp: true });
+  }
+
   render() {
     return (
       <nav className="NavbarItems">
@@ -29,7 +45,9 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button>Sign up</button>
+          <button onClick={this.handleSignUpClick}>Sign up</button>
+          {this.state.showSignUp && <SignUp />}
+
         </ul>
       </nav>
     );
